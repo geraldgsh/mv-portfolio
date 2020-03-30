@@ -28,7 +28,7 @@ body {
 }
 
 .sidebar {  
-  background: url('./media/satellite.jpg') no-repeat top right fixed;  
+  background: url('./media/satellite.jpg') no-repeat top fixed;  
   background-size: cover;
   padding: 75px 0 50px 20%;
   border-radius: 15px 0 0 15px ;
