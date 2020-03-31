@@ -5,7 +5,7 @@ const about = () => {
 };
 export default about;
 
-{/* <div class="canvas rows columns is-gapless">
+`<div class="canvas rows columns is-gapless">
   <div class="container is-fluid">
     <div class="column is-half">
       <div class="row">
@@ -21,4 +21,4 @@ export default about;
       </div>
     </div>
   </div>
-</div> */}
+</div>`

@@ -19,8 +19,18 @@ body {
   min-height: 90vh;
 }
 
-.wording {
+.wording, .social-media {
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.6);
+  padding: 0 0 0 0;
+}
+
+.social-media a i {
+  color: black;
+}
+
+.social-media a i:hover {
+  color: #0000FF;
 }
 
 .sidebar {  
