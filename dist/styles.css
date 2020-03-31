@@ -34,7 +34,6 @@ body {
 .canvas {
   background: url('./media/window.jpg') no-repeat right bottom;
   background-size: cover;
-  min-height:100%;
   width:100%
 }
 
@@ -58,6 +57,22 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.card-container{
+  display: grid;  
+	grid-template-columns: repeat(auto-fill, minmax(260px,6fr));
+  grid-gap: 1em;
+}
+
+.card{
+  color: black;
+  height: max-content;
+}
+
+i {
+  padding: 10px 10px 10px 10px;
+}
+
 
 @media only screen and (max-width: 1024px) {
   .box {
