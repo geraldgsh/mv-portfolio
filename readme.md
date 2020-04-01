@@ -4,7 +4,7 @@ Professional Curriculum
 
 ### Snapshot
 
-![]()
+![](https://github.com/geraldgsh/mv-portfolio/blob/feature/dist/media/screenshot.JPG)
 
 ### Introduction.
 Build a portfolio to showcase capability as a developer.
