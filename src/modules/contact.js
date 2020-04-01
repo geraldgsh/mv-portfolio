@@ -12,7 +12,7 @@ const contact = () => {
                                 </h1>
                               </div>
                               <div class="form-col column is-8 is-offset-2">
-                                <form action="POST" data-netlify="true">
+                                <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
                                   <div class="field">
                                     <label class="label">Name</label>
                                     <div class="control has-icons-left">
