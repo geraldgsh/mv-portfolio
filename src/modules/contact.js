@@ -6,11 +6,6 @@ const contact = () => {
                             <div class="columns is-multiline"
                               data-aos="fade-in-up"
                               data-aos-easing="linear">
-                              <div class="column is-12 about-me">
-                                <h1 class="title has-text-centered section-title">
-                                  Get in touch
-                                </h1>
-                              </div>
                               <div class="form-col column is-8 is-offset-2">
                                 <form name="contact" action="POST" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                                   <div class="field">
