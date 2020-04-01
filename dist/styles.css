@@ -4,6 +4,10 @@ body {
   min-height: 100vh;
 }
 
+.about-me {
+  padding: 35% 0 35% 0;
+}
+
 .box {
   padding: 0 0 0 0;
   width: 75%;
