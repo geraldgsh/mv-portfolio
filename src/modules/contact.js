@@ -46,7 +46,7 @@ const contact = () => {
                                       ></textarea>
                                     </div>
                                   </div>
-                                  <div class='field'>
+                                  <div class="field">
                                     <div data-netlify-recaptcha="true"></div>
                                   </div>                                  
                                   <div class="field">
