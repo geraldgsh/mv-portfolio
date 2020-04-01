@@ -7,7 +7,7 @@ const contact = () => {
                               data-aos="fade-in-up"
                               data-aos-easing="linear">
                               <div class="column is-12 about-me">
-                                <h1 class="title has-text-centered section-title">
+                                <h1 class="title has-text-black has-text-centered section-title">
                                   Get in touch
                                 </h1>
                               </div>
