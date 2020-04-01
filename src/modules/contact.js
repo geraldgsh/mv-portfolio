@@ -12,7 +12,7 @@ const contact = () => {
                                 </h1>
                               </div>
                               <div class="form-col column is-8 is-offset-2">
-                                <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                                <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                                   <div class="field">
                                     <label class="label">Name</label>
                                     <div class="control has-icons-left">
@@ -46,9 +46,9 @@ const contact = () => {
                                       ></textarea>
                                     </div>
                                   </div>
-                                  <div class="field">
-                                    <div data-netlify-recaptcha="true"></div>                            
-                                  </div>
+                                  <div class='field'>
+                                    <div data-netlify-recaptcha="true"></div>
+                                  </div>                                  
                                   <div class="field">
                                     <div class="control">
                                       <button class="button submit-button">
