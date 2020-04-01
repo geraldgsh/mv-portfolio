@@ -1,0 +1,29 @@
+{
+  "name": "mv-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio",
+  "main": "'./src/index.js'",
+  "scripts": {
+    "build": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldgsh/mv-portfolio.git"
+  },
+  "author": "Gerald Goh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geraldgsh/mv-portfolio/issues"
+  },
+  "homepage": "https://github.com/geraldgsh/mv-portfolio#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
