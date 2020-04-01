@@ -76,20 +76,13 @@
                             Get in touch
                           </h1>
                         </div>
-                        <div class="column is-8 is-offset-2">
-                          <form
-                            action="https://formspree.io/email@example.com"
-                            method="POST"
-                          >
+                        <div class="form-col column is-8 is-offset-2">
+                          <form action="POST" data-netlify="true">
                             <div class="field">
                               <label class="label">Name</label>
                               <div class="control has-icons-left">
-                                <input
-                                  class="input"
-                                  type="text"
-                                  placeholder="Ex. Jane Smith"
-                                  name="Name"
-                                />
+                                <input class="input" type="text" 
+                                placeholder="Ex. Jane Smith" name="Name"/>
                                 <span class="icon is-small is-left">
                                   <i class="fas fa-user"></i>
                                 </span>
@@ -102,8 +95,7 @@
                                   class="input"
                                   type="email"
                                   placeholder="Ex. hello@arctheme.com"
-                                  name="Email"
-                                />
+                                  name="Email"/>
                                 <span class="icon is-small is-left">
                                   <i class="fas fa-envelope"></i>
                                 </span>
@@ -118,6 +110,9 @@
                                   name="Message"
                                 ></textarea>
                               </div>
+                            </div>
+                            <div class="field">
+                              <div data-netlify-recaptcha="true"></div>                            
                             </div>
                             <div class="field">
                               <div class="control ">
