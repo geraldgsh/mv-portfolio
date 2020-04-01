@@ -4,7 +4,7 @@ const contact = () => {
   contactForm.classList.add('section-light', 'contact');
   contactForm.innerHTML = `<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                             <p>
-                              <label>Email: <input type="text" name="name" /></label>
+                              <label>Email: <input type="text" name="email" /></label>
                             </p>
                             <p>
                               <label>Message: <textarea name="message"></textarea></label>
