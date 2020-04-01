@@ -50,7 +50,7 @@ const contact = () => {
                                     <div data-netlify-recaptcha="true"></div>                            
                                   </div>
                                   <div class="field">
-                                    <div class="control ">
+                                    <div class="control">
                                       <button class="button submit-button">
                                         Submit&nbsp;&nbsp;
                                         <i class="fas fa-paper-plane"></i>
