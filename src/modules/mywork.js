@@ -30,7 +30,7 @@ const mywork = () => {
     },
     {
       img: './media/weather.jpg',
-      desc: 'A weather application that show weather info on queried location(s) via API from openweathermap',
+      desc: 'A weather application that shows weather info on queried location(s) via API from openweathermap',
       stack: ' (HTML + CSS + JS + API)',
       live: 'https://raw.githack.com/geraldgsh/weather-app/master/dist/index.html',
       github: 'https://github.com/geraldgsh/weather-app',
