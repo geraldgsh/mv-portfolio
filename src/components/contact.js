@@ -47,7 +47,7 @@ export default class MyForm extends React.Component {
               method="POST"
             >
               <div className="field">
-                <label className="label" for="name">Name</label>
+                <label className="label">Name</label>
                 <div className="control has-icons-left">
                   <input className="input" type="text" placeholder="Ex. Jane Smith" name="name" />
                   <span className="icon is-small is-left">
