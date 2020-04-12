@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/destructuring-assignment, jsx-a11y/no-static-element-interactions */
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
