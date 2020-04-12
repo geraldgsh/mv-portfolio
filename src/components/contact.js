@@ -1,10 +1,6 @@
-/* eslint-disable react/no-string-refs */
 /* eslint-disable jsx-a11y/label-has-associated-control, jsx-a11y/label-has-for */
 /* eslint-disable react/no-unescaped-entities, arrow-body-style  */
 import React from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
-
-const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
 
 const Contact = () => {
   return (
@@ -16,7 +12,7 @@ const Contact = () => {
           </h1>
         </div>
         <div className="form-col column is-8 is-offset-2">
-          <form name="Contact Form" action="POST" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+          <form name="Contact Form" action="POST" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="Contact Form" />
             <div className="field">
               <label className="label">Name</label>
@@ -47,8 +43,6 @@ const Contact = () => {
             </div>
             <div className="field">
               <div className="control">
-                <input hidden className="hidden" name="bot-field" />
-                <div data-netlify-recaptcha />
                 <button type="button" className="button submit-button">
                   Submit&nbsp;&nbsp;
                   <i className="fas fa-paper-plane" />
