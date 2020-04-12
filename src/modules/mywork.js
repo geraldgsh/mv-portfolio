@@ -71,7 +71,7 @@ const mywork = () => {
     card.appendChild(footer);
 
     const a1 = document.createElement('a');
-    a1.setAttribute('src', project.live);
+    a1.setAttribute('href', project.live);
     footer.appendChild(a1);
 
     const i1 = document.createElement('i');
@@ -79,7 +79,7 @@ const mywork = () => {
     a1.appendChild(i1);
 
     const a2 = document.createElement('a');
-    a2.setAttribute('src', project.github);
+    a2.setAttribute('href', project.github);
     footer.appendChild(a2);
 
     const i2 = document.createElement('i');
