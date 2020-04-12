@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/label-has-associated-control  */
+/* eslint-disable jsx-a11y/label-has-associated-control, jsx-a11y/label-has-for */
 /* eslint-disable react/no-unescaped-entities, arrow-body-style  */
 import React from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
