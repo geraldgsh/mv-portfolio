@@ -1,7 +1,10 @@
+/* eslint-disable react/no-string-refs */
 /* eslint-disable jsx-a11y/label-has-associated-control, jsx-a11y/label-has-for */
 /* eslint-disable react/no-unescaped-entities, arrow-body-style  */
 import React from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
+
+const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
 
 const Contact = () => {
   return (
@@ -44,7 +47,7 @@ const Contact = () => {
             </div>
             <div className="field">
               <div className="control">
-                <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} />
+                <ReCAPTCHA ref="recaptcha" sitekey={RECAPTCHA_KEY} />
                 <button type="button" className="button submit-button">
                   Submit&nbsp;&nbsp;
                   <i className="fas fa-paper-plane" />
