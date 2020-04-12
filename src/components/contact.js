@@ -10,7 +10,8 @@ const Contact = () => {
             </h1>
           </div>
           <div className="form-col column is-8 is-offset-2">
-            <form name="contact" action="POST" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <form name="Contact Form" action="POST" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <input type="hidden" name="form-name" value="Contact Form" />
               <div className="field">
                 <label className="label">Name</label>
                 <div className="control has-icons-left">
@@ -40,6 +41,8 @@ const Contact = () => {
               </div>                                  
               <div className="field">
                 <div className="control">
+                  <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} />
+                  <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_SECRET} />
                   <button className="button submit-button">
                     Submit&nbsp;&nbsp;
                     <i className="fas fa-paper-plane" />
