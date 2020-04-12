@@ -46,7 +46,7 @@ export default class MyForm extends React.Component {
               method="POST"
             >
               <div className="field">
-                <label htmlFor=" " className="label">Name</label>
+                <div className="label">Name</div>
                 <div className="control has-icons-left">
                   <input className="input" type="text" placeholder="Ex. Jane Smith" name="name" />
                   <span className="icon is-small is-left">
@@ -55,7 +55,7 @@ export default class MyForm extends React.Component {
                 </div>
               </div>
               <div className="field">
-                <label htmlFor=" " className="label">Email</label>
+                <div htmlFor=" " className="label">Email</div>
                 <div className="control has-icons-left">
                   <input className="input" type="email" placeholder="Ex. hello@arctheme.com" name="email" />
                   <span className="icon is-small is-left">
@@ -64,7 +64,7 @@ export default class MyForm extends React.Component {
                 </div>
               </div>
               <div className="field">
-                <label htmlFor=" " className="label">Message</label>
+                <div htmlFor=" " className="label">Message</div>
                 <div className="control">
                   <textarea className="textarea" placeholder="Textarea" name="Message" defaultValue="" />
                 </div>
