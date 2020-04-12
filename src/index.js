@@ -64,7 +64,7 @@ class Home extends Component {
                       <div className="container is-fluid">
                         <div className="column">
                           <div className="row">
-                            <div className="column buttons" value="example" onClick={e => this.handleClick(e, 'value')} onKeyDown={this.handleKeyDown}>
+                            <div className="column buttons" value="example" onClick={e => this.handleClick(e, 'value')}>
                               <button value="About" id="#about" className="button is-info is-fullwidth" type="button">
                                 About
                               </button>
