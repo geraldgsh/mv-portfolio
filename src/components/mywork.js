@@ -5,6 +5,7 @@ import Mint from '../media/mint.jpg';
 import Social from '../media/social.jpg';
 import Todo from '../media/todo.jpg';
 import Weather from '../media/weather.jpg';
+import Calculator from '../media/calculator.jpg';
 
 const projects = [
   {
@@ -40,12 +41,20 @@ const projects = [
     github: 'https://github.com/geraldgsh/todo-list',
   },
   {
-    id: 4,
+    id: 5,
     img: Weather,
-    desc: 'A weather application that shows weather info on queried location(s) via API from openweathermap',
+    desc: 'A simple calculator app built with React. It uses Stateful component which are defined using a class.',
     stack: ' (HTML + CSS + JS + API)',
     live: 'https://raw.githack.com/geraldgsh/weather-app/master/dist/index.html',
     github: 'https://github.com/geraldgsh/weather-app',
+  },
+  {
+    id: 6,
+    img: Calculator,
+    desc: 'A weather application that shows weather info on queried location(s) via API from openweathermap',
+    stack: ' (React + Heroku)',
+    live: 'https://react-calculate.herokuapp.com/',
+    github: 'https://github.com/geraldgsh/react-calculator',
   },
 ];
 
