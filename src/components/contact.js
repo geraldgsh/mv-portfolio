@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable react/jsx-one-expression-per-line, react/button-has-type */
 import React from 'react';
 
@@ -47,7 +46,7 @@ export default class MyForm extends React.Component {
               method="POST"
             >
               <div className="field">
-                <label className="label">Name</label>
+                <label htmlFor=" " className="label">Name</label>
                 <div className="control has-icons-left">
                   <input className="input" type="text" placeholder="Ex. Jane Smith" name="name" />
                   <span className="icon is-small is-left">
@@ -56,7 +55,7 @@ export default class MyForm extends React.Component {
                 </div>
               </div>
               <div className="field">
-                <label className="label">Email</label>
+                <label htmlFor=" " className="label">Email</label>
                 <div className="control has-icons-left">
                   <input className="input" type="email" placeholder="Ex. hello@arctheme.com" name="email" />
                   <span className="icon is-small is-left">
@@ -65,7 +64,7 @@ export default class MyForm extends React.Component {
                 </div>
               </div>
               <div className="field">
-                <label className="label">Message</label>
+                <label htmlFor=" " className="label">Message</label>
                 <div className="control">
                   <textarea className="textarea" placeholder="Textarea" name="Message" defaultValue="" />
                 </div>
