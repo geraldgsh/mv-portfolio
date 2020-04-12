@@ -35,7 +35,7 @@ const projects = [
   {
     id: 4,
     img: Todo,
-    desc: 'An Objected Oriented Javascript To Do List app.',
+    desc: 'An Objected Oriented Javascript To Do List app that uses local storage on browser.',
     stack: ' (HTML + CSS + JS + Bulma)',
     live: 'https://rawcdn.githack.com/geraldgsh/todo-list/10b5955ab59a3ca8048f348bf3ed253ffd558b90/dist/index.html',
     github: 'https://github.com/geraldgsh/todo-list',
@@ -43,7 +43,7 @@ const projects = [
   {
     id: 5,
     img: Weather,
-    desc: 'A simple calculator app built with React. It uses Stateful component which are defined using a class.',
+    desc: 'A weather application that shows weather info on queried location(s) via API from openweathermap.',
     stack: ' (HTML + CSS + JS + API)',
     live: 'https://raw.githack.com/geraldgsh/weather-app/master/dist/index.html',
     github: 'https://github.com/geraldgsh/weather-app',
@@ -51,7 +51,7 @@ const projects = [
   {
     id: 6,
     img: Calculator,
-    desc: 'A weather application that shows weather info on queried location(s) via API from openweathermap',
+    desc: 'A simple calculator app built with React. It uses Stateful component which are defined using a class.',
     stack: ' (React + Heroku)',
     live: 'https://react-calculate.herokuapp.com/',
     github: 'https://github.com/geraldgsh/react-calculator',
