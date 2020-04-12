@@ -47,8 +47,8 @@ const Contact = () => {
             </div>
             <div className="field">
               <div className="control">
-              <input hidden className="hidden" name="bot-field" />
-              <div data-netlify-recaptcha />
+                <input hidden className="hidden" name="bot-field" />
+                <div data-netlify-recaptcha />
                 <button type="button" className="button submit-button">
                   Submit&nbsp;&nbsp;
                   <i className="fas fa-paper-plane" />
