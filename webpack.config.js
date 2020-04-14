@@ -1,7 +1,6 @@
 /* eslint-disable linebreak-style */
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   mode: 'development',
@@ -43,7 +42,6 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: './src/index.html',
       filename: './index.html',
-    }),
-    new Dotenv(),
+    })
   ],
 };
