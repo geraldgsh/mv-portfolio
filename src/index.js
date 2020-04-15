@@ -118,8 +118,8 @@ class Home extends Component {
 
 export default Home;
 
-if (typeof window !== 'undefined') {
-  const wrapper = document.getElementById('root');
-  // eslint-disable-next-line no-unused-expressions
-  wrapper ? ReactDOM.hydrate(<Home />, wrapper) : false;
-}
+
+const wrapper = document.getElementById('root');
+// eslint-disable-next-line no-unused-expressions
+wrapper ? ReactDOM.hydrate(<Home />, wrapper) : false;
+
