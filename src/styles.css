@@ -85,6 +85,10 @@ i {
   margin-right: auto;
 }
 
+.card-content {
+  height: 145px;
+}
+
 @media only screen and (max-width: 1024px) {
   .box {
     width: 100%;
