@@ -122,4 +122,3 @@ export default Home;
 const wrapper = document.getElementById('root');
 // eslint-disable-next-line no-unused-expressions
 wrapper ? ReactDOM.hydrate(<Home />, wrapper) : false;
-
