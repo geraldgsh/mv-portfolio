@@ -12,8 +12,8 @@ const About = () => {
                 Hello. My name is
                 <span className="highlight">Gerald Goh.</span>
                 I enjoy blending aesthetics with sophistication. Besides
-                coding, I am keen on science and engineering that I've pursued
-                them academically. On my travel, I'd be trigger ready on my
+                coding, I'm intrigued by science and engineering, both which I pursued
+                academically. When I'm travelling, you'll find me trigger ready with my
                 camera or looking for a photogenic location to launch my drone.
               </h3>
             </div>

@@ -279,58 +279,22 @@ Entrypoint main = main.js
     | ./src/modules/DOMControl.js 3.12 KiB [built]
     | ./src/modules/localControl.js 1.6 KiB [built]
 ```
-
-#### Setup DOTENV
-
-Install the package.;
-
-```sh
-$ npm install dotenv-webpack
-
-+ dotenv-webpack@1.7.0
-added 3 packages from 1 contributor and audited 5678 packages in 4.177s
-
-23 packages are looking for funding
-  run `npm fund` for details
-```
-
-Create a .env file at the root directory of your application and add the variables to it.
-
-```sh
-//contents of .env
-SECRET_KEY=abcd1234
-```
-
-Add it to your Webpack config file
-
-```javascript
-// webpack.config.js
-const Dotenv = require('dotenv-webpack');
- 
-module.exports = {
-  ...
-  plugins: [
-    new Dotenv()
-  ]
-  ...
-};
-```
-
-Use in the code
-
-```javscript
-const key = process.env.OPENKEY;
-```
-
 #### Portfolio
 Portfolio was built with Bulma, Webpack, React, JS, CSS & HTML.
+
+### To begin
+
+1. Clone Repo
+2. 'npm install' to install dependencies
+3. `yarn start` or 'npm run start' on terminal
+4. Open [http://localhost:8080](http://localhost:3000) to view it in the browser.
 
 ### Wiki
 
 Checkout our [wikipage](https://github.com/geraldgsh/mv-portfolio/wiki) for more details. 
 
-#### Live Demo
-[Demo]()
+#### Live Version
+[Link](https://geraldgsh.com)
 
 #### Getting Started
 Clone repo and open index.html with your favorite browser.

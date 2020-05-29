@@ -1,7 +1,7 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
 import Grid from '../media/grid.jpg';
-import Mint from '../media/mint.jpg';
+import Entracker from '../media/entracker.jpg';
 import Social from '../media/social.jpg';
 import Todo from '../media/todo.jpg';
 import Weather from '../media/weather.jpg';
@@ -18,11 +18,11 @@ const projects = [
   },
   {
     id: 2,
-    img: Mint,
-    desc: 'Built a form based HTML site that matches the appearance of mint.com’s signup page.',
-    stack: ' (HTML + CSS)',
-    live: 'https://geraldgsh.github.io/mint-sign-up-clone/',
-    github: 'https://github.com/geraldgsh/mint-sign-up-clone',
+    img: Entracker,
+    desc: 'Built a form based React/Redux site with Rails Backend API to Create and Read data.',
+    stack: ' (React + Rails + API + Heroku)',
+    live: 'https://energy-track.herokuapp.com/',
+    github: 'https://github.com/geraldgsh/energy-tracker',
   },
   {
     id: 3,
@@ -70,16 +70,16 @@ const mywork = () => {
               </figure>
             </div>
             <div className="card-content">
-              <div className="desc">
+              <div className="desc is-capitalized">
                 {project.desc}
                 {project.stack}
               </div>
             </div>
             <footer className="card-footer foot">
-              <a href={project.live}>
+              <a href={project.live} target={project.live}>
                 <i className="fas fa-tv" />
               </a>
-              <a href={project.github}>
+              <a href={project.github} target={project.live}>
                 <i className="fab fa-github" />
               </a>
             </footer>
