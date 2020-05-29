@@ -279,49 +279,6 @@ Entrypoint main = main.js
     | ./src/modules/DOMControl.js 3.12 KiB [built]
     | ./src/modules/localControl.js 1.6 KiB [built]
 ```
-
-#### Setup DOTENV
-
-Install the package.;
-
-```sh
-$ npm install dotenv-webpack
-
-+ dotenv-webpack@1.7.0
-added 3 packages from 1 contributor and audited 5678 packages in 4.177s
-
-23 packages are looking for funding
-  run `npm fund` for details
-```
-
-Create a .env file at the root directory of your application and add the variables to it.
-
-```sh
-//contents of .env
-SECRET_KEY=abcd1234
-```
-
-Add it to your Webpack config file
-
-```javascript
-// webpack.config.js
-const Dotenv = require('dotenv-webpack');
- 
-module.exports = {
-  ...
-  plugins: [
-    new Dotenv()
-  ]
-  ...
-};
-```
-
-Use in the code
-
-```javscript
-const key = process.env.OPENKEY;
-```
-
 #### Portfolio
 Portfolio was built with Bulma, Webpack, React, JS, CSS & HTML.
 
