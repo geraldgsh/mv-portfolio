@@ -279,16 +279,22 @@ Entrypoint main = main.js
     | ./src/modules/DOMControl.js 3.12 KiB [built]
     | ./src/modules/localControl.js 1.6 KiB [built]
 ```
-
 #### Portfolio
-Portfolio was built with Bulma, Webpack, JS, CSS & HTML.
+Portfolio was built with Bulma, Webpack, React, JS, CSS & HTML.
+
+### To begin
+
+1. Clone Repo
+2. 'npm install' to install dependencies
+3. `yarn start` or 'npm run start' on terminal
+4. Open [http://localhost:8080](http://localhost:3000) to view it in the browser.
 
 ### Wiki
 
 Checkout our [wikipage](https://github.com/geraldgsh/mv-portfolio/wiki) for more details. 
 
-#### Live Demo
-[Demo]()
+#### Live Version
+[Link](https://geraldgsh.com)
 
 #### Getting Started
 Clone repo and open index.html with your favorite browser.
