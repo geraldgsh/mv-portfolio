@@ -76,12 +76,12 @@ const mywork = () => {
             <footer className="card-footer foot">
               <a href={project.live} target={project.live}>
                 <i>
-                  <FontAwesomeIcon icon={['fas', 'fa-tv']} size="lg" />
+                  <FontAwesomeIcon icon={['fas', 'tv']} width="18" />
                 </i>
               </a>
               <a href={project.github} target={project.live}>
                 <i>
-                  <FontAwesomeIcon icon={['fab', 'github-square']} size="lg" />
+                  <FontAwesomeIcon icon={['fab', 'github-square']} width="18" />
                 </i>
               </a>
             </footer>
