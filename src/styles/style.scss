@@ -1,3 +1,6 @@
+@import 'bulma/bulma';
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
 html,
 body {
   font-family: 'Titillium Web', sans-serif;
@@ -14,7 +17,7 @@ body {
 }
 
 .canvas {
-  background: url('./media/window.jpg') no-repeat right bottom;
+  background: url('/img/window.jpg') no-repeat right bottom;
   background-size: cover;
   width:100%
 }
@@ -57,10 +60,16 @@ i {
   line-height: 1.5em;
 }
 
-.wording, .social-media {
+.wording {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 0 0 0 0;
+}
+
+.social-media {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 8px 0 8px 0;
 }
 
 .social-media a i {
@@ -72,7 +81,7 @@ i {
 }
 
 .sidebar {  
-  background: url('./media/satellite.jpg') no-repeat left; 
+  background: url('/img/satellite.jpg') no-repeat left; 
   background-size: cover;
   border-radius: 5px 0 0 5px;
   min-height: 90vh;
@@ -83,6 +92,10 @@ i {
 .pic {
   margin-left: auto;
   margin-right: auto;
+}
+
+.card-content {
+  height: 145px;
 }
 
 @media only screen and (max-width: 1024px) {

@@ -1,12 +1,18 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable react/destructuring-assignment, jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import './styles.css';
-import Profile from './media/profile-sq-pic-2020-1.jpg';
-import About from './components/about';
-import Mywork from './components/mywork';
-import Contact from './components/contact';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { config, library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+import About from '../components/about';
+import Mywork from '../components/mywork';
+import Contact from '../components/contact';
+
+config.autoAddCss = true;
+library.add(fas, fab);
 
 class Home extends Component {
   constructor(props) {
@@ -48,7 +54,7 @@ class Home extends Component {
                       <div className="row">
                         <div className="column">
                           <figure className="image is-128x128 pic">
-                            <img className="is-rounded" src={Profile} alt="" />
+                            <img className="is-rounded" src="/img/profile-sq-pic-2020-1.jpg" alt="" />
                           </figure>
                         </div>
                       </div>
@@ -86,16 +92,24 @@ class Home extends Component {
                           <div className="row">
                             <div className="column social-media">
                               <a href="https://github.com/geraldgsh">
-                                <i className="fab fa-github-square fa-lg" />
+                                <i>
+                                  <FontAwesomeIcon icon={['fab', 'github-square']} size="lg" />
+                                </i>
                               </a>
                               <a href="https://www.linkedin.com/in/geraldgsh/">
-                                <i className="fab fa-linkedin fa-lg" />
+                                <i>
+                                  <FontAwesomeIcon icon={['fab', 'linkedin']} size="lg" />
+                                </i>
                               </a>
                               <a href="https://twitter.com/geraldgsh">
-                                <i className="fab fa-twitter-square fa-lg" />
+                                <i>
+                                  <FontAwesomeIcon icon={['fab', 'twitter-square']} size="lg" />
+                                </i>
                               </a>
                               <a href="https://angel.co/u/geraldgsh">
-                                <i className="fab fa-angellist fa-lg" />
+                                <i>
+                                  <FontAwesomeIcon icon={['fab', 'angellist']} size="lg" />
+                                </i>
                               </a>
                             </div>
                           </div>
@@ -117,8 +131,3 @@ class Home extends Component {
 }
 
 export default Home;
-
-
-const wrapper = document.getElementById('root');
-// eslint-disable-next-line no-unused-expressions
-wrapper ? ReactDOM.hydrate(<Home />, wrapper) : false;

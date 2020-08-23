@@ -1,16 +1,14 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
-import Grid from '../media/grid.jpg';
-import Entracker from '../media/entracker.jpg';
-import Social from '../media/social.jpg';
-import Todo from '../media/todo.jpg';
-import Weather from '../media/weather.jpg';
-import Calculator from '../media/calculator.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { config, library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 const projects = [
   {
     id: 1,
-    img: Grid,
+    img: '/img/grid.jpg',
     desc: 'Built a custom grid-based framework (similar to bootstrap) with basic functionality necessary to build a website.',
     stack: ' (HTML + CSS)',
     live: 'https://rawcdn.githack.com/davitomix/CustomGridFrameWork/b5320d1646cea5bc2e0e9bdbcfe881e37083e70f/index.html',
@@ -18,7 +16,7 @@ const projects = [
   },
   {
     id: 2,
-    img: Entracker,
+    img: '/img/entracker.jpg',
     desc: 'Built a form based React/Redux site with Rails Backend API to Create and Read data.',
     stack: ' (React + Rails + API + Heroku)',
     live: 'https://energy-track.herokuapp.com/',
@@ -26,7 +24,7 @@ const projects = [
   },
   {
     id: 3,
-    img: Social,
+    img: '/img/social.jpg',
     desc: 'A Facebook-like social network application. Features – users, profiles, “friending”, posts, newsfeed, and likes.',
     stack: ' (Ruby on Rails + Heroku)',
     live: 'https://societalbook.herokuapp.com/',
@@ -34,7 +32,7 @@ const projects = [
   },
   {
     id: 4,
-    img: Todo,
+    img: '/img/todo.jpg',
     desc: 'An Objected Oriented Javascript To Do List app that uses local storage on browser.',
     stack: ' (HTML + CSS + JS + Bulma)',
     live: 'https://rawcdn.githack.com/geraldgsh/todo-list/10b5955ab59a3ca8048f348bf3ed253ffd558b90/dist/index.html',
@@ -42,7 +40,7 @@ const projects = [
   },
   {
     id: 5,
-    img: Weather,
+    img: '/img/weather.jpg',
     desc: 'A weather application that shows weather info on queried location(s) via API from openweathermap.',
     stack: ' (HTML + CSS + JS + API)',
     live: 'https://raw.githack.com/geraldgsh/weather-app/master/dist/index.html',
@@ -50,7 +48,7 @@ const projects = [
   },
   {
     id: 6,
-    img: Calculator,
+    img: '/img/calculator.jpg',
     desc: 'A simple calculator app built with React. It uses Stateful component which are defined using a class.',
     stack: ' (React + Heroku)',
     live: 'https://react-calculate.herokuapp.com/',
@@ -77,10 +75,14 @@ const mywork = () => {
             </div>
             <footer className="card-footer foot">
               <a href={project.live} target={project.live}>
-                <i className="fas fa-tv" />
+                <i>
+                  <FontAwesomeIcon icon={['fas', 'fa-tv']} size="lg" />
+                </i>
               </a>
               <a href={project.github} target={project.live}>
-                <i className="fab fa-github" />
+                <i>
+                  <FontAwesomeIcon icon={['fab', 'github-square']} size="lg" />
+                </i>
               </a>
             </footer>
           </div>
