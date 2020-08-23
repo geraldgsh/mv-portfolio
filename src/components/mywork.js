@@ -1,5 +1,9 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { config, library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 const projects = [
   {
@@ -71,10 +75,14 @@ const mywork = () => {
             </div>
             <footer className="card-footer foot">
               <a href={project.live} target={project.live}>
-                <i className="fas fa-tv" />
+                <i>
+                  <FontAwesomeIcon icon={['fas', 'fa-tv']} size="lg" />
+                </i>
               </a>
               <a href={project.github} target={project.live}>
-                <i className="fab fa-github" />
+                <i>
+                  <FontAwesomeIcon icon={['fab', 'github-square']} size="lg" />
+                </i>
               </a>
             </footer>
           </div>
