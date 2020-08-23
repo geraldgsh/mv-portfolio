@@ -286,7 +286,7 @@ Portfolio was built with Bulma, Webpack, React, JS, CSS & HTML.
 
 1. Clone Repo
 2. 'npm install' to install dependencies
-3. `yarn start` or 'npm run start' on terminal
+3. `npm run dev' on terminal
 4. Open [http://localhost:8080](http://localhost:3000) to view it in the browser.
 
 ### Wiki
