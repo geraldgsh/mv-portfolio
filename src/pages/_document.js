@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment } from 'react';
 import Document, {
   Html, Head, Main, NextScript,
 } from 'next/document';
@@ -6,8 +6,6 @@ import { GA_TRACKING_ID } from '../lib/gtag'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const sheet = new ServerStyleSheet()
-    const originalRenderPage = ctx.renderPage
     const initialProps = await Document.getInitialProps(ctx);
     const isProduction = process.env.NODE_ENV === 'production'
     return {
